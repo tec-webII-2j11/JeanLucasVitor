@@ -1,0 +1,283 @@
+#layout{
+    margin: 0px auto;
+    width: 1000px;
+    background-color: white;
+}
+
+#backgroundblue{
+    width: 100%;
+    background-color: black; 
+    margin:auto;   
+}
+
+#whitebackground{
+    background-color: gray;
+    padding: 10px;
+    margin-top: -17px;
+}
+
+#BG{
+    background: url('fundologin2.jpg');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#corpo{
+    margin: auto;
+    margin-top: 0px;
+    text-align: left;
+    width: 71%;
+    height: 100%;
+    padding: 15px;
+}
+
+#corpo1{
+    background: url(wallpapper12.png)right;
+}
+
+#corpo2{
+    margin: auto;
+    margin-top: 200px;
+    text-align: center;
+    width: 50%;
+    background-image: url(fundo.png);
+    height: 100%;
+    padding-top: 5px;
+    padding: 10px;
+}
+
+header .titulo {
+	margin-top: -5px;
+	background: #505050;
+	font-family: verdana;
+	font-size:20px;
+	height: 25px;
+	color: white;
+	border-left:15px solid #505050;
+	padding: 8px;   
+}
+
+#imgcadastro{
+    float: right;
+}
+
+/*  MENU PRINCILAL  */
+#menu  {
+    float: left;
+    background: white;
+    padding: 0px;
+    width: 150px;
+    height: 500px;
+    margin-top: -15px;
+}
+#menu a{
+    background: grey;
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    padding: 8px;
+}
+#menu a:hover{
+    color: white;
+    border-bottom: 2px;
+    border-bottom-color: white;
+    text-decoration:underline;
+    font-weight: bold;
+    background: black;
+}
+#menu li{
+    background: white;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border-bottom:1px solid #A4A0F5;
+    border-left:5px solid #505050;
+}
+
+/* Menu Perfil */
+#menuperfil{
+    list-style-type: none;
+    margin-top: 30px;
+    margin-left: -40px;
+}
+
+#menuperfil a{
+    text-decoration: none;
+    color: black;
+}
+
+#menuperfil a:hover{
+    color: white; 
+}
+
+#menuperfil li:hover{
+    color: white; 
+    background: #4b85c0;
+}
+
+#menuperfil li{
+    border: 1px solid black;
+    width: 400px;
+    background-color: #7eafe1;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-family: arial;
+}
+
+#texto{
+    margin: 0px 0px 0px 180px;
+    background: white;
+    height: 550px;
+    width: 80%;
+}
+
+#Introducao{
+    background: white;
+    font-family: arial;
+    
+}
+
+#texto .img1{  
+    width:30%;
+    float: left; 
+    margin: 0px 5px auto;
+}
+
+#texto .img2{  
+    width:30%;
+    float: right;
+    margin: 0px 5px auto;
+}
+
+#texto .img3{  
+    width:18%;
+    float: right;
+    margin: 0px 5px auto;
+}
+
+.next{ /* Botão próxima pagina */
+    float: right;
+    background: white;
+    margin: -5px 10px auto;
+}
+
+.previous{ /* Botão próxima pagina */
+    float: left;
+    background: white;
+    margin: -5px 10px auto;
+}
+
+#texto .imgpg1{  
+    width:50%;
+    float: left; 
+    margin: 0px 5px auto;
+}
+
+.txtperfil{
+    width: 300px;
+    background-color: bisque;
+    padding: 5px;
+    text-align: left;
+}
+
+.editoptions{
+    width: 300px;
+    padding: 10px;
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+/*tags*/
+layout a{
+    background: white;
+}
+
+layout h3{
+    background: white;
+    font-family: verdana;
+}
+
+layout b{
+    background: white;
+}
+
+layout p{
+    background: white;
+}
+
+
+
+#aranha{
+    float: left;
+    margin-top: -200px;
+}
+
+#btncadastro{
+    width: 15%;   
+}
+
+/*PLAYER DE VIDEO*/
+div#playerbox{
+    width: 530px;
+    background: #4D4C4C;
+    
+}
+
+button#playpousebtn{
+    margin: 0px 10px 0px 3px;   
+}
+
+div#Controle {
+    padding: 3px;
+    background: #4D4C4C;  
+}
+
+input#slider{
+    width: 180px;   
+}
+
+input#volumeslider{
+    width: 50px;   
+}
+
+span{
+    background: #4D4C4C;
+    color: white;
+}
+
+
+video{
+    width: 540px;
+    height: 360px;
+    background: white;
+}
+
+input[type='range']{ 
+    -webkit-appearance: none !important;
+    background: #000;
+    border: #666 1px solid;
+    height: 4px;
+}
+
+input[type='range']::-webkit-slider-thumb{
+    -webkit-appearance: none !important;
+    background: #FFF;
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    cursor:pointer;
+}
+
+footer{
+    background: black;
+    width: 98%;
+    height: 50px;
+    font-style: italic;
+    margin-top: 5px;
+    padding: 10px;
+}
